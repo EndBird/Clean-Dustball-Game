@@ -1,0 +1,31 @@
+package sprites;
+
+public class DustBall extends Dirt {
+
+	public DustBall(char symbol, int row, int column, int value) {
+		super(symbol, row, column, value);
+		// TODO Auto-generated constructor stub
+	}
+    
+	
+	public char getSymbol() {		
+		return super.getSymbol();
+		// TODO Auto-generated method stub
+	}
+	
+	public int getRow() {return super.getRow();}
+	
+	public int getColumn() {return super.getColumn();}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+	public int getValue() {return super.getValue();}
+	
+	public void moveTo(int row, int column) {this.column=column; this.row=row;}
+	
+	
+
+}

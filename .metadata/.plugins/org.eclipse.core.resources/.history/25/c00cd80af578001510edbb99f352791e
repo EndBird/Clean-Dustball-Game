@@ -1,0 +1,11 @@
+package ui;
+
+import game.VacuumGame;
+
+public class TextUI {
+
+	public TextUI(VacuumGame game) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

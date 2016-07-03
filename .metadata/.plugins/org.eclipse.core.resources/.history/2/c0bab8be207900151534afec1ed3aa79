@@ -1,0 +1,9 @@
+package game;
+
+public class Play1 {
+
+	public Play1() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

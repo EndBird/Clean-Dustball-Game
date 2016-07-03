@@ -1,0 +1,35 @@
+package sprites;
+
+public class Wall extends Sprite{
+    
+	
+	/**initialize a Wall
+	 * 
+	 * @param symbol
+	 * @param row
+	 * @param column
+	 * 
+	 */
+	public Wall(char symbol, int row, int column) { 		
+		super(symbol, row, column);
+		
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public char getSymbol() {		
+		return super.getSymbol();
+		// TODO Auto-generated method stub
+	}
+	
+	public int getRow() {return super.getRow();}
+	
+	public int getColumn() {return super.getColumn();}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+}

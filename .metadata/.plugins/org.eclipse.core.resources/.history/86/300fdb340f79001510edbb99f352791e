@@ -1,0 +1,30 @@
+package sprites;
+
+public class Dirt extends Sprite {
+	protected int value;
+	public Dirt(char symbol, int row, int column, int value) {
+		super(symbol, row, column);
+		this.value = value;
+		
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public char getSymbol() {		
+		return super.getSymbol();
+		// TODO Auto-generated method stub
+	}
+	
+	public int getRow() {return super.getRow();}
+	
+	public int getColumn() {return super.getColumn();}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+	public int getValue() {return this.value;}
+
+	
+}

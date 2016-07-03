@@ -1,0 +1,32 @@
+package ui;
+
+import game.VacuumGame;
+
+public class TextUI {
+	private VacuumGame game;
+
+	public TextUI(VacuumGame game) {
+		this.game = game;
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void displayWinner() {
+
+	    if (!this.game.gameOver()) {
+	        return;
+	    }
+	    
+	    int won = this.game.getWinner();
+		String message;
+
+		if (won == 1) {
+			message = "Congratulations Player 1! You won the game with a score of " + 
+					this.game.getVacuumOne().getScore() + ".";
+			System.out.println(message);
+		} else { 
+			message = "Congratulations Player 2! You won the game with a score of " + 
+					this.game.getVacuumTwo().getScore() + "."; 
+			System.out.println(message);
+		}}
+
+}

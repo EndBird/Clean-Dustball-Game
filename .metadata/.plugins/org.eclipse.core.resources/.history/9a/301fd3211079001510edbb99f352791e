@@ -1,0 +1,41 @@
+package sprites;
+
+public abstract class Sprite {
+	protected char symbol;
+	protected int row;
+	protected int column;
+	/**initialize Sprite
+	 * 
+	 * @param symbol
+	 * @param row
+	 * @param column
+	 */
+	public Sprite(char symbol, int row, int column) {
+		this.row = row; 
+	    this.column = column;
+	    this.symbol = symbol;
+	}
+	/**return the Symbol of Sprite
+	  * @return char
+	  */
+	public char getSymbol() {return this.symbol;}
+	/**return the row of Sprite
+	 * @return int 
+	 */
+	public int getRow() {return this.row;}
+	/**return the column of Sprite
+	 * @return int 
+	 */
+	public int getColumn() {return this.column;}
+	/**return the str representation of Sprite
+	 * @return String 
+	 * 
+	 */
+	public String toString() {return String.valueOf(this.symbol);}
+	
+	public boolean equals(Sprite other) {if (this.getSymbol()==other.getSymbol() && this.getRow()==other.getRow() && this.getColumn()==other.getColumn()){
+		return true;
+	} else{return false;}}
+	
+
+}

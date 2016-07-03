@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="sprites.Wall"/>
+<fullyQualifiedTypeName name="game.Constants"/>
+<fullyQualifiedTypeName name="game.ArrayGrid"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="sprites.Sprite"/>
+<fullyQualifiedTypeName name="sprites.DustBall"/>
+<fullyQualifiedTypeName name="game.VacuumGame"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

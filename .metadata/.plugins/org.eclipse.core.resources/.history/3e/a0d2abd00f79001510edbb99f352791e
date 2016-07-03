@@ -1,0 +1,26 @@
+package sprites;
+
+public class CleanHallway extends Sprite{
+
+	public CleanHallway(char symbol, int row, int column) {
+		super(symbol, row, column);
+		// TODO Auto-generated constructor stub
+	}
+
+	public char getSymbol() {		
+		return super.getSymbol();
+		// TODO Auto-generated method stub
+	}
+	
+	public int getRow() {return super.getRow();}
+	
+	public int getColumn() {return super.getColumn();}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+
+}

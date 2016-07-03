@@ -1,0 +1,36 @@
+package sprites;
+
+public abstract class Sprite {
+	protected char symbol;
+	protected int row;
+	protected int column;
+	
+	public Sprite(char symbol, int row, int column) {
+		this.row = row; 
+	    this.column = column;
+	    this.symbol = symbol;
+	}
+	/**return the Symbol of Dumpster
+	  * @return char
+	  */
+	public char getSymbol() {return this.symbol;}
+	/**return the row of Dumpster
+	 * @return int 
+	 */
+	public int getRow() {return this.row;}
+	/**return the column of Dumpster
+	 * @return int 
+	 */
+	public int getColumn() {return this.column;}
+	/**return the str representation of Dumpster
+	 * @return String 
+	 * 
+	 */
+	public String toString() {return String.valueOf(this.symbol);}
+	
+	public boolean equals(Sprite other) {if (this.getSymbol()==other.getSymbol() && this.getRow()==other.getRow() && this.getColumn()==other.getColumn()){
+		return true;
+	} else{return false;}}
+	
+
+}
